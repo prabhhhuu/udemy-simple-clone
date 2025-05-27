@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 700px;
+}
+.name-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 10px;
+}
+
+.shop{
+    margin-top: 5px;
+}
+.shop a{
+    text-decoration: none;
+    color: rgb(124, 123, 123);
+}
+
+.img_sec{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    vertical-align: bottom;
+    border: 2px black solid;
+}
+.img_sec-one{
+    display: inline-block;
+    border: 2px black solid;
+    width: 200px;
+    height: 368.33px;
+    object-fit: contain;
+}
+
+.food-img-alter{
+    height: 275px;
+    width: 183px;
+}
+.food-img_desc{
+    padding-top: 7px;
+}
+
+.food-img_container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+span{
+    font-weight: bold;
+    font-size: 15px;
+}
+.img_sec button , .img_sec-one button{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: aliceblue;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+.contact-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.contact-box h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.form-contact_input{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-container button{
+    background-color: yellow;
+    margin-top: 10px;
+    border: none;
+    width: 250px;
+    font-size: 20px;
+    position: relative;
+    left: -20px;
+    padding: 5px;
+    border-radius:5px ;
+}

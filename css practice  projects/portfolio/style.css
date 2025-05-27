@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Young Serif", serif;
+}
+.container{
+    padding: 50px;
+    padding-top: 80px;
+}
+
+.section_one{
+    background-color: black;
+    color: white;
+    padding:30px 20px;
+    border-radius: 5px;
+    
+}
+.section-one_box{
+    background-image:linear-gradient( white ,aliceblue) ;
+    box-shadow: 10px 10px 5px rgb(154, 153, 153);
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 3px;
+}
+.sec_name{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.section_role{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+a.section_contact{
+    border: none;
+    background-color: orangered;
+    color: white;
+    text-decoration: none; 
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    transition: color .50s ,background-color 0.15s;
+
+}
+a.section_contact:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 174, 0);
+}
+
+.section-two_info,.section-three_info,.section-four_info,.section-five{
+    margin-top: 20px;
+}
+
+.section-two_desc,.section-three_desc,.section-four_desc,.section-five_desc{
+    margin-top: 10px;
+}
+
+
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-five a{
+    color: rgb(42, 208, 237);
+}
+
+.section-three li, .section-four li{
+    list-style: none;
+}
+.section-three{
+    background-color: #6462FD;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.section-four{
+    background-color: rgb(255, 106, 0);
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    height: 200px;
+}
+.box-info{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 20px;
+    min-width: 600px;
+}
+.box-two{
+    margin-left: 10px;
+}
+
+.contact-form{
+    margin: 20px;
+}
+.form-contact_input,.form-contact_textarea,.form-contact_submit{
+    margin-top: 10px;
+}
+
+.form-contact_input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px black solid;
+}
+.form-contact_textarea{
+    padding: 10px;
+    border: none;
+    border: 1px black solid;
+}
+.form-contact_submit{
+    padding: 10px 20px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: "Young Serif", serif;
+    transition: color ,background-color 0.15s;
+}
+
+.form-contact_submit:hover{
+    color:  rgb(43, 43, 43);
+    background-color: white ;
+    opacity: 0.7;
+}
